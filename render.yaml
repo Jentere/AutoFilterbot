@@ -24,7 +24,7 @@ services:
       - key: DATABASE_URL
         sync: True
       - key: PICS
-        sync: False
+        sync: True
       - key: WEBHOOK
         sync: True
         - key: CHANNELS
